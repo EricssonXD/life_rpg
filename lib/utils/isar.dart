@@ -15,9 +15,6 @@ class IsarManager {
   }
 
   static Isar get isar {
-    if (_isar == null) {
-      throw Exception('Isar not initialized');
-    }
-    return _isar!;
+    return Isar.get(schemas: [QuestSchema]);
   }
 }
