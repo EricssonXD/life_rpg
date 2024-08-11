@@ -1,8 +1,8 @@
 // ignore_for_file: invalid_annotation_target
 
+import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:isar/isar.dart';
-import 'package:flutter/foundation.dart';
 
 part 'quests_model.freezed.dart';
 part 'quests_model.g.dart';
